@@ -8,7 +8,7 @@ categories: blog
 <!--# Mój pierwszy wpis-->
 
 ![Andrzej Draguła](/assets/images/andrzej-dragula.jpg)
-<img src="/assets/images/andrzej-dragula.jpg" alt="Andrzej Draguła" style="float: left; margin-right: 10px;">
+<!-- <img src="/assets/images/andrzej-dragula.jpg" alt="Andrzej Draguła" style="float: left; margin-right: 10px;"> -->
 
 Andrzej Draguła
 202501171643
