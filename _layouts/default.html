@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "pl-PL" }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,6 +32,16 @@
     <div class="container">
       <section id="main_content">
         {{ content }}
+
+        {% for post in site.posts %}
+          <article class="post">
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+            <div class="post-excerpt">
+              {{ post.excerpt }}
+            </div>
+          </article>
+        {% endfor %}
       </section>
     </div>
   </body>
