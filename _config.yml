@@ -1,6 +1,8 @@
 title: Hacker theme
 description: Hacker is a theme for GitHub Pages.
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
 baseurl: ""
+website: https://tombaczynski.github.io
+basewebsite: /jekyll
